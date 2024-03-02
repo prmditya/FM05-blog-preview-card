@@ -30,6 +30,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Figtree-v", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.5rem;
 }
 
 body {
@@ -127,4 +132,21 @@ main {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.5rem !important;
+  }
+
+  body {
+    padding: 0 20px;
+  }
+  .card {
+    max-width: 325px;
+  }
 }

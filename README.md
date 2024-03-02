@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repo](https://www.github.com/prmditya)
-- Live Site URL: [GitHub page](https://www.github.com/prmditya)
+- Solution URL: [GitHub repo](https://github.com/prmditya/FM05-blog-preview-card)
+- Live Site URL: [GitHub page](https://prmditya.github.io/FM05-blog-preview-card/)
 
 ## My process
 
