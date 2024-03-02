@@ -1,0 +1,130 @@
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+}
+
+@font-face {
+  font-family: "Figtree-sb";
+  src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Figtree-eb";
+  src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "figtree-i";
+  src: url(assets/fonts/figtree-italic-variablefont_wght.ttf);
+}
+
+@font-face {
+  font-family: "figtree-v";
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree-v", sans-serif;
+}
+
+body {
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  margin: auto;
+  max-width: 384px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 8px 8px hsl(0, 0%, 0%);
+  border: solid 2px hsl(0, 0%, 0%);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card .header-ilustration {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card-info button {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: var(--yellow);
+  font-weight: 1000;
+  border: none;
+  cursor: pointer;
+  transition: border 300ms ease-in-out;
+}
+
+.card-info button:hover {
+  border: 1px solid var(--black);
+}
+
+.card-info p {
+  font-weight: 500;
+}
+
+.card h1 {
+  font-size: 24px;
+  font-weight: 1000;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.card h1:hover {
+  color: var(--yellow);
+}
+
+.card > p {
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.card-profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.card-profile img {
+  max-width: 32px;
+  max-height: 32px;
+  border-radius: 50%;
+}
+
+.card-profile p {
+  font-weight: 700;
+}
+
+.attribution {
+  padding: 15px 0;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
